@@ -1,0 +1,583 @@
+/* global */
+
+*{ 	
+	box-sizing: border-box;
+	font-size: 100%; /* Brug em til størrelsesforhold */
+	font-family: "arial", sans-serif;
+}
+
+#logomobil{
+	margin: 0;
+	padding: 0;
+}
+
+.videocontainers{
+	overflow: hidden;
+}
+
+body{
+	background-color: lightgray
+}
+
+	.containerartikel{
+	margin-bottom: 20px;
+}
+
+	.containerartikel a{
+	text-decoration: none;
+}
+
+
+.list1{
+	color: red;
+}
+
+img{
+	width: 100%;
+	background-size: cover;
+}
+
+#toggle{
+	display: none;
+}
+
+
+.banner{
+	position: relative;
+	width: 100%;
+	margin: auto;
+}
+
+
+/* fra 320-559px */
+@media(max-width: 559px){
+	
+	.artiklermain560{
+		display: none;
+	}
+	
+		.artiklermain1024{
+		display: none;
+	}
+	
+		label{
+		font-size: 0.75em;
+		position: absolute;
+		left: 93%;
+		bottom: 95%;
+	}
+	
+	.containerartikel h1{
+	font-size: 1em;
+	color: white;
+	background-color: #1D89E4;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+
+	.containerartikel p{
+	color: white;
+	position: absolute;
+	top: 72%;
+	width: 100%;
+	font-size: 1em;
+	background-color: rgba(29,137,228,0.50);
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+	
+	.artiklermain320-559 h1{
+		font-size: 1.4em;
+		color: #1D89E4;
+		text-align: center;
+		margin-bottom: 1%;
+	}
+	
+		.artiklermain320-559 h2{
+		font-size: 1.2em;
+		color: #1D89E4;
+		text-align: center;
+		margin-bottom: 1%;
+	}
+}
+
+/*scale*/
+@media (min-width: 400px){
+	
+		label{
+		font-size: 1em;
+		position: absolute;
+		left: 93%;
+		bottom: 98%;
+	}
+	
+		.containerartikel h1{
+	font-size: 1.3em;
+	color: white;
+	background-color: #1D89E4;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+
+	.containerartikel p{
+	color: white;
+	position: absolute;
+	top: 78%;
+	width: 100%;
+	font-size: 1em;
+	background-color: rgba(29,137,228,0.50);
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+}
+
+
+/* Fra 559px */
+@media (min-width: 560px){
+	
+	.artiklermain320-559{
+		display: none;
+	}
+		.artiklermain1024{
+		display: none;
+	}
+	
+		label{
+		font-size: 1.5em;
+		position: absolute;
+		left: 94%;
+		bottom: 94%;
+	}
+	
+	.containerartikel h1{
+	font-size: 1.7em;
+	color: white;
+	background-color: #1D89E4;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+
+	.containerartikel p{
+	color: white;
+	position: absolute;
+	top: 74%;
+	width: 100%;
+	font-size: 1.7em;
+	background-color: rgba(29,137,228,0.50);
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+	
+	.artiklermain560 h1{
+	font-size: 1.9em;
+	color: #1D89E4;
+	text-align: center;
+}
+	
+	.artiklermain560 h2{
+	font-size: 2em;
+	color: #1D89E4;
+	text-align: center;
+}
+	
+}
+
+/*scale*/
+
+@media(min-width: 689px){
+	.artiklermain560 h1{
+	font-size: 2.4em;
+	color: #1D89E4;
+	text-align: center;
+}
+	
+		.containerartikel h1{
+	font-size: 2.4em;
+	color: white;
+	background-color: #1D89E4;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+
+	.containerartikel p{
+	color: white;
+	position: absolute;
+	top: 77%;
+	width: 100%;
+	font-size: 2em;
+	background-color: rgba(29,137,228,0.50);
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+}
+
+/*label og h1 scale*/
+@media (min-width: 800px){
+	
+		label{
+		font-size: 2em;
+		position: absolute;
+		left: 94%;
+		bottom: 90%;
+	}
+	
+	.artiklermain560 h1{
+	font-size: 2.8em;
+	color: #1D89E4;
+	text-align: center;
+}
+	
+	.containerartikel h1{
+	font-size: 2.7em;
+	color: white;
+	background-color: #1D89E4;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+
+	.containerartikel p{
+	color: white;
+	position: absolute;
+	top: 79%;
+	width: 100%;
+	font-size: 2.1em;
+	background-color: rgba(29,137,228,0.50);
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+}
+
+/* Kun Mobil fra 0-1023px*/
+@media (max-width: 1023px){
+	
+
+
+	#headerpc{
+		display: none;
+	}
+	
+	.mainpc{
+		display: none;
+	}
+	
+	#logopc{
+		display: none;
+	}
+	
+	#logomobil{
+		width: 100%;
+		position: relative;
+	}
+
+	
+	#toggle:checked + .menu{
+		display: block;
+}
+
+	
+	header nav ul{
+	list-style: none;
+}
+
+	.menu{
+		text-align: center;
+		width: 100%;
+		margin: 0 1.875em 5% 0;
+		display: none;
+		background-color: #1D89E4;
+	}	
+	
+.menu a{
+		display: block;
+		border-bottom: 1px solid black;
+		margin: 0;
+		text-align: center;
+		color: white;
+		font-size: 2em;
+		font-weight: bold;
+		line-height: 70px;
+		text-decoration: none;
+		padding: 0 50px;
+	}	
+
+}
+	
+/* Størrelse for Ipad fra 1024px og op*/
+
+@media (min-width: 1024px){
+	
+	.artikelmain{
+		background-image: url(../images/artikelside.png);
+		background-repeat: round;
+		background-size: cover;
+		background-attachment: fixed;
+		overflow: hidden;
+	}
+	
+	#headermobil{
+		display: none;
+	}
+	
+	.toggle{
+		display: none;
+	}
+	
+	.artiklermain320-559{
+	display: none;
+}
+	
+	.artiklermain560{
+		display: none;
+}
+	
+		.artiklermain1024{
+		display: block;
+	}
+	
+	
+	header{
+		background-color: #028aff;
+		width: 100%;
+	}
+	
+	#logopc{
+	width: 100%;
+	}
+	
+	#logomobil{
+		display: none;
+	}
+		
+	label{
+		display: block;
+		cursor: pointer;
+	}
+	
+	.menuicon{
+		display: none;
+	}
+	
+	header nav ul{
+	list-style: none;
+}
+
+	.menu{
+		text-align: center;
+		width: 100%;
+		margin-top: 0%;
+	}
+	
+	.menu a{
+	width: 100%;
+	text-align: center;
+	padding: 0 25px;
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+}
+	.containerartikel h1{
+	font-size: 3.5em;
+	color: white;
+	background-color: #1D89E4;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+
+	.containerartikel p{
+	color: white;
+	position: absolute;
+	top: 79%;
+	width: 100%;
+	font-size: 2.7em;
+	background-color: rgba(29,137,228,0.50);
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+	.artiklermain1024 p{
+	margin-left: 12%;
+	margin-right: 12%;
+	text-align: justify;
+}
+	
+	.artiklermain1024 h1{
+	font-size: 4em;
+	color: #1D89E4;
+	text-align: center;
+}
+	
+	.artiklermain1024 h2{
+	font-size: 2.5em;
+	color: #1D89E4;
+	text-align: center;
+}
+	
+	.list1{
+	margin-left: 12%;
+	margin-right: 12%;
+}
+	
+	.artiklermain1024 img{
+		margin-left: 12%;
+		margin-right: 12%;
+		width: 76%;
+	}
+	
+/* Video */
+	
+	.videocontainer1024{
+		overflow: hidden;
+		border: 3px solid #028aff;
+		background-color: #028aff;
+	}
+}
+
+/* 1280x720 */
+@media (min-width: 1280px){
+	
+	.artiklermain1024 p{
+	margin-left: 12%;
+	margin-right: 12%;
+	text-align: justify;
+	font-size: 1.5em;
+}
+	
+	.list1{
+		font-size: 1.5em;
+	}
+	
+	.artiklermain1024 h1{
+	font-size: 4.5em;
+	color: #1D89E4;
+	text-align: center;
+}
+	
+	.artiklermain1024 h2{
+	font-size: 3em;
+	color: #1D89E4;
+	text-align: center;
+}
+	
+	.containerartikel h1{
+	font-size: 4.5em;
+	color: white;
+	background-color: #1D89E4;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+
+	.containerartikel p{
+	color: white;
+	position: absolute;
+	top: 80.5%;
+	width: 100%;
+	font-size: 3.2em;
+	background-color: rgba(29,137,228,0.50);
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+} 
+
+
+
+/* 1600x900 */
+@media (min-width: 1600px){
+	
+		.artiklermain1024 p{
+	margin-left: 12%;
+	margin-right: 12%;
+	text-align: justify;
+}
+	
+	.artiklermain1024 h1{
+	font-size: 5em;
+	color: #1D89E4;
+	text-align: center;
+}
+	
+	.artiklermain1024 h2{
+	font-size: 4em;
+	color: #1D89E4;
+	text-align: center;
+}
+	
+	.containerartikel h1{
+	font-size: 5.5em;
+	color: white;
+	background-color: #1D89E4;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+
+	.containerartikel p{
+	color: white;
+	position: absolute;
+	top: 80.5%;
+	width: 100%;
+	font-size: 4em;
+	background-color: rgba(29,137,228,0.50);
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+	
+} 
+
+	@media (min-width: 1920px){
+		
+	.artiklermain1024 p{
+	margin-left: 12%;
+	margin-right: 12%;
+	text-align: justify;
+}
+	
+	.artiklermain1024 h1{
+	font-size: 6em;
+	color: #1D89E4;
+	text-align: center;
+}
+	
+	.artiklermain1024 h2{
+	font-size: 4em;
+	color: #1D89E4;
+	text-align: center;
+}
+		
+	.containerartikel h1{
+	font-size: 5.5em;
+	color: white;
+	background-color: #1D89E4;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+
+	.containerartikel p{
+	color: white;
+	position: absolute;
+	top: 80.5%;
+	width: 100%;
+	font-size: 4em;
+	background-color: rgba(29,137,228,0.50);
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+		
+}
